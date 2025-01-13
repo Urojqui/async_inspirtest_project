@@ -7,6 +7,9 @@ const renderHeader = () => `
   <div class="searchContainer">
     <input type="text" id="searchBox" placeholder="Encuentra ideas sobre moda, cenas, fotografía,etc." />
     <button id="searchButton">Buscar</button>
+    <a href="/perfil" class="user-icon" title="Perfil de usuario">
+        <i class="fa-regular fa-user"></i>
+    </a>
   </div>
 `;
 

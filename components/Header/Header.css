@@ -33,6 +33,7 @@ header input {
   gap: 10px;
   width: 90%;
   margin: 20px 0;
+  align-items: center;
 }
 
 #searchBox {
@@ -55,6 +56,12 @@ header input {
 
 #searchButton:hover {
   background-color: #109972;
+}
+
+.fa-regular, .far {
+  font-size: 30px;
+  margin-top: 1px;
+  color:#777 ;
 }
 
 @media screen and (width <= 580px) {
